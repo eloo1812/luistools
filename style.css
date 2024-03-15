@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+   
+}
+
+
+.corpo {
+    background: rgba(109,53,28,1);
+    background: linear-gradient(125deg, rgba(38,17,15,1) 0%, rgba(109,53,28,1) 35%, rgba(109,53,28,1) 100%) fixed;
+    
+}
+
+.logo img {
+    height: 6vh;
+    margin-left: 5vw;
+}
+
+.nav-link {
+    font-size: 2.2vh;
+    font-weight: 500;
+    color: white;
+    margin-left: 2.0vw;
+}
+
+.navbar {
+    margin-left: 6.4vw;
+}
+
+.nav-link:hover {
+    color: #FF9659;
+    cursor:default;
+}
+
+.text-decoration-underline {
+    color: #FF9659;
+}
+
+/* container do meio */
+
+.heading-1 {
+    color: white;
+    font-size: 5vw;
+    max-width: 25vw;
+    margin-left: 5vw;
+}
+
+.yt 
+{
+    margin-top: 15vh;
+}
+
+.heading-3, .heading-4 {
+    color: #FF9659;
+    font-weight: 500;
+}
+
+.heading-4
+{
+    margin-top: 0.5vh;
+}
+
+.heading-3 {
+    font-size: 2vh;
+    max-width: 420px;
+    margin-bottom: 16px;
+    line-height: 150%;
+    margin-left: 5.2vw;
+}
+
+.heading-3 {
+    font-size: 2.5vh;
+}
+
+.btn-primary {
+    background-color: #d93600;
+    border: none;
+    width: 15vw;
+    height: 8vh;
+    margin-left: 5vw;
+}
+
+.container-final
+{
+    margin-left: 11vw;
+    margin-top: 23vh;
+}
+
+.fim {
+    margin-top: 30vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    max-width: 76vw;
+}
+
+.tornese {
+    color: #d93600;
+    font-weight: 500;
+}
+
+.node {
+    color: white;
+    font-weight: 500;
+    font-size: 7vh;
+    margin-top: 0vh;
+}
+
+.js {
+    color: #FF9659;
+    font-weight: 500;
+    font-size: 3vh;
+    margin-top: 0vh;
+    margin-bottom: 7vh;
+    max-width: 78vw;
+}
+
+.quadrados
+{
+    margin-left: 11vw;
+    max-width: 75vw;
+}
+
+
+.cinzablock{
+    background-color: #181628;
+    border-radius: 2vh;
+    color: white;
+    height: 40vh;
+    width: 25vw;
+    justify-content: center;
+    margin-bottom: 2vh;
+    padding-top: 4vh;
+    
+}
+
+.cinzablock p {
+    margin-left: 2.2vw;
+    margin-right: 2vw;
+}
+
+.imagem {
+    background-color: #2b2b2b;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+    justify-content: center;  
+    border-radius: 100px; 
+    align-items: center;
+    margin-left: 2.2vw;
+}
+
+.titulo {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.expl {
+    color: #ff9659;
+    font-weight: 500;
+}
