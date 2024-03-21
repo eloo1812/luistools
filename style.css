@@ -3,18 +3,23 @@
 * {
     box-sizing: border-box;
    
+   
 }
 
 
 .corpo {
     background: rgba(109,53,28,1);
     background: linear-gradient(125deg, rgba(38,17,15,1) 0%, rgba(109,53,28,1) 35%, rgba(109,53,28,1) 100%) fixed;
+    width: 100%;
     
 }
+
+
 
 .logo img {
     height: 6vh;
     margin-left: 5vw;
+    width: 15vw;
 }
 
 .nav-link {
@@ -41,24 +46,38 @@
 
 .heading-1 {
     color: white;
-    font-size: 5vw;
-    max-width: 25vw;
-    margin-left: 5vw;
+    font-size: 9vh;
+    max-width: 30vw;
+    margin-left: vw;
 }
 
 .yt 
 {
     margin-top: 15vh;
+    margin-left: -6vw;
+    border: none;
+
+}
+.row
+{
+    padding: 0%;
 }
 
 .heading-3, .heading-4 {
     color: #FF9659;
     font-weight: 500;
+    justify-content: center;
 }
 
 .heading-4
 {
     margin-top: 0.5vh;
+    margin-left: -3vw;
+    max-width: 15vw;
+}
+
+.bonus{
+   
 }
 
 .heading-3 {
@@ -66,7 +85,13 @@
     max-width: 420px;
     margin-bottom: 16px;
     line-height: 150%;
-    margin-left: 5.2vw;
+    margin-left: vw;
+}
+
+.meio {
+    margin-left: 11vw;
+    padding-top: 2vh;
+    margin-right: vw;
 }
 
 .heading-3 {
@@ -78,7 +103,7 @@
     border: none;
     width: 15vw;
     height: 8vh;
-    margin-left: 5vw;
+    margin-left: vw;
 }
 
 .container-final
@@ -127,7 +152,7 @@
     border-radius: 2vh;
     color: white;
     height: 40vh;
-    width: 25vw;
+    width: 100%;
     justify-content: center;
     margin-bottom: 2vh;
     padding-top: 4vh;
@@ -135,8 +160,9 @@
 }
 
 .cinzablock p {
-    margin-left: 2.2vw;
+    margin-left: 0.5vw;
     margin-right: 2vw;
+    max-width: 30vw;
 }
 
 .imagem {
@@ -161,4 +187,111 @@
 .expl {
     color: #ff9659;
     font-weight: 500;
+}
+
+
+@media (max-width: 992px) {
+    .logo img {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .navbar {
+        margin-left: 0;
+    }
+
+    .heading-1 {
+        font-size: 12vh;
+        max-width: none;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .heading-3 {
+        font-size: 2vh;
+        max-width: none;
+        margin-left: 0;
+        text-align: left;
+        margin-top: 2vh;
+    }
+
+    .heading-4 {
+        font-size: 1.5vh;
+        max-width: none;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 3vh;
+    }
+
+    .btn-primary {
+        width: 80%;
+        margin: 0 auto;
+        margin-right: 9vw;
+        
+    }
+
+    .yt {
+        margin-top: 10vh;
+    }
+
+    .meio {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container-final {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .tornese
+    {
+        font-size: 8vw;
+        width: 100%;
+        text-align: center;
+        margin-left: 22vw;
+    }
+
+    .node {
+        font-size: 5vh;
+        margin-left: 45vw;
+    }
+
+    .js {
+        font-size: 2vh;
+        margin-left: 47vw;
+    }
+
+    .quadrados {
+        margin-left: 45vw;
+        text-align: center;
+    }
+
+    .cinzablock {
+        height: auto;
+        margin-bottom: 5vh;
+        align-items: center;
+    }
+
+    .imagem {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin-left: 18vw;
+    }
+
+    .titulo {
+        font-size: 18px;
+        margin-bottom: 8px;
+        margin-left: 25vw;
+        text-align: left;
+    }
+
+    .expl {
+        font-size: 1.5vh;
+        text-align: left;
+    }
 }
